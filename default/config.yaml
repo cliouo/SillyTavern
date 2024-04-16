@@ -4,10 +4,11 @@ listen: true
 # Server port
 port: 8000
 # Toggle whitelist mode
-whitelistMode: false
+whitelistMode: true
 # Whitelist of allowed IP addresses
 whitelist:
   - 127.0.0.1
+  - 172.*.*.*
 # Toggle basic authentication for endpoints
 basicAuthMode: false
 # Basic authentication credentials
